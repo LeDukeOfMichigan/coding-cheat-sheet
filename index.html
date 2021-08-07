@@ -20,16 +20,100 @@
   
   <h2 id="HTML">HTML Tips</h2>
   <p>Tags to document:</p>
-  <ul>
-    <li>a</li>
-    <li>span</li>
-    <li>div</li>
-    <li>article</li>
-    <li>aside</li>
-    <li>section</li>
-    <li>header</li>
-    <li>nav</li>
-  </ul>
+  <table>
+    <thead>
+      <th>HTML Tag</th>
+      <th>Self-closing?</th>
+      <th>Description</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>&lt;a&gt;</code></td>
+        <td>No</td>
+        <td>This creates a hyperlink based on the <code>href</code> attribute</td>
+      </tr>
+      <tr>
+        <td><code>&lt;div&gt;</code></td>
+        <td>No</td>
+        <td>This is used to style an area within a webpage, but should only be used when semantic elements do not apply. Note: By default, browsers always place a line break before and after the <code>&lt;div&gt;</code> element.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;span&gt;</code></td>
+        <td>No</td>
+        <td>Similar to the <code>&lt;div&gt;</code> element, this can be used to style text, but <code>&lt;span&gt;</code> is used inline while <code>&lt;div&gt;</code> is used at the block level.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;article&gt;</code></td>
+        <td>No</td>
+        <td>The <code>&lt;article&gt;</code> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).</td>
+      </tr>
+      <tr>
+        <td><code>&lt;aside&gt;</code></td>
+        <td>No</td>
+        <td>This is a portion of a document whose content is indirectly related to the main content. These are often used for sidebars and call-out boxes.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;section&gt;</code></td>
+        <td>No</td>
+        <td>This is a generic standalone section of a document, which doesn't have a more specific semantic element that can represent it. These should always contain a heading, and usually a paragraph as well.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;header&gt;</code></td>
+        <td>No</td>
+        <td>Distinct from the <code>&lt;head&gt;</code> element, a header will define the top portion of a document. This is frequently used for site-level navigation and the title of the site.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;nav&gt;</code></td>
+        <td>No</td>
+        <td>This specifies a section to provide hyperlinks to other parts of the site or other resources. These can be menus, tables of contents, or indexes.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;video&gt;</code></td>
+        <td>No</td>
+        <td>This will load a video file into the webpage and specify what controls are available to the user. Content inside this tag is only referenced when browsers don't support the video element. The <code>&lt;source&gt;</code> element is needed to define where the video file is stored.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;script&gt;</code></td>
+        <td>No</td>
+        <td>This inserts a block of code that can contain JavaScript. This can be used to make the site more interactive.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;img&gt;</code></td>
+        <td>Yes</td>
+        <td>This adds an image to the page. The <code>src</code> attribute is needed to define the location of the image.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;br&gt;</code></td>
+        <td>Yes</td>
+        <td>This creates a line break in the text (carriage-return). This should not be used to separate paragraphs.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;input&gt;</code></td>
+        <td>Yes</td>
+        <td>This is used to create interactive controls for web-based forms to accept user data. Many different input types are available.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;source&gt;</code></td>
+        <td>Yes</td>
+        <td>This is used in the context of a <code>&lt;picture&gt;</code>, <code>&lt;audio&gt;</code>, or <code>&lt;video&gt;</code> element to define the type of file and its location using the <code>src</code> attribute.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;param&gt;</code></td>
+        <td>Yes</td>
+        <td>Used within an <code>&lt;object&gt;</code> element to define specific parameters for the object.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;meta&gt;</code></td>
+        <td>Yes</td>
+        <td>Used in the <code>&lt;head&gt;</code> element to define site elements that are machine-readable, but not displayed.</td>
+      </tr>
+      <tr>
+        <td><code>&lt;link&gt;</code></td>
+        <td>Yes</td>
+        <td>Used in the <code>&lt;head&gt;</code> element to define a relationship with an external resource.</td>
+      </tr>
+    </tbody>
+  </table>
   <p>Self-closing vs. closing tags</p>
   <h2 id="CSS">CSS Tips</h2>
   <p>The difference between class and id indicators:</p>

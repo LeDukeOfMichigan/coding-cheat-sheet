@@ -1,5 +1,7 @@
 body {
-  background-color: orange;
+  background-color: darkslategrey;
+  font-family: Helvetica monospace;
+  color: white;
 }
 
 .main-nav {
@@ -11,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: rgb(34, 13, 110);
 }
 
 .main-nav li {
